@@ -1,6 +1,6 @@
 const Generate_btn = document.getElementById("create_btn");
 const result = document.getElementById("result");
-var length_pass= document.getElementById("Password_length");
+const length_pass= document.getElementById("Password_length");
 const checkbox = document.querySelectorAll(".item input");
 const password_arr=["ABCDEFGHIJKLMNOPQRSTUVWXYZ","abcdefghijklmnopqrstuvwxyz","0123456789","~!@#$%^&*()_+`-/{}"];
 var temp_arr = []; // to save item
